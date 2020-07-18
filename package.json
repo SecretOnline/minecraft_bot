@@ -1,0 +1,19 @@
+{
+  "name": "minecraft_bot",
+  "version": "1.0.0",
+  "description": "A bot for Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecretOnline/minecraft_bot.git"
+  },
+  "author": "secret_online",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SecretOnline/minecraft_bot/issues"
+  },
+  "homepage": "https://github.com/SecretOnline/minecraft_bot#readme"
+}
