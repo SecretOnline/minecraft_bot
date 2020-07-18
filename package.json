@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node src/index.ts",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:prettier": "prettier --write src",
     "lint:eslint": "eslint --fix src/**"
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/SecretOnline/minecraft_bot#readme",
   "dependencies": {
+    "mineflayer": "^2.24.0",
+    "mineflayer-pathfinder": "^1.0.9",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
@@ -31,6 +34,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
-    "ts-node": "^8.10.2"
+    "ts-node": "^8.10.2",
+    "typed-emitter": "^1.2.0"
   }
 }
